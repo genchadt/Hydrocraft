@@ -1401,7 +1401,7 @@ function recipe_hccob(items, result, player)
 	inv:AddItem("Hydrocraft.HCHusk")	
 end 
 
---Open Cigarette Packs
+--[[Open Cigarette Packs
 function recipe_opencigpack1(items, result, player)
 	player:getInventory():AddItem("Base.Cigarettes")
 end
@@ -1413,6 +1413,7 @@ end
 function recipe_opencigpack3(items, result, player)
 	player:getInventory():AddItem("Hydrocraft.HCCigarettesmenthol")
 end
+]]--
 
 --Beekeeping Stuff
 

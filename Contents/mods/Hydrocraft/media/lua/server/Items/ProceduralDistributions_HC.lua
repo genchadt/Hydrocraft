@@ -1113,7 +1113,6 @@ local kitchen_random_junk = {
         "Hydrocraft.HCGlasstallempty", 1,
         "Hydrocraft.HCCork", 1,
         "Hydrocraft.HCWaxpaper", 1,
-        "Hydrocraft.HCLighterfluid", 1,
         "Hydrocraft.HCRubbercement", 0.1,
         "Hydrocraft.HCPyrexdish", 1,
         "Hydrocraft.HCAgar", 1,
@@ -1705,7 +1704,6 @@ local shed_items = {
         "Hydrocraft.HCRedbrickbox", 0.5,
         "Hydrocraft.HCStonepilebox", 0.5,
         "Hydrocraft.HCIBC", 0.2,
-        "Hydrocraft.HCLighterfluid", 0.5,
         "Base.SheetMetal", 0.5,
         "Hydrocraft.HCGroomingbrush", 0.5,
         "Hydrocraft.HCDogropetoy", 0.5,
@@ -1773,7 +1771,6 @@ local store_counter_tobacco_items = {
 --         "Hydrocraft.HCCigarettecarton", 0.01,
 --         "Hydrocraft.HCCigarettecartonlights", 0.01,
 --         "Hydrocraft.HCCigarettecartonmenthol", 0.01,
-        "Hydrocraft.HCLighterfluid", 1,
 --         "Hydrocraft.HCCigarbox", 0.01,
 };
 insertItemListsInProcDistribution( "StoreCounterTobacco", {   store_counter_tobacco_items  } );
@@ -1782,7 +1779,6 @@ insertItemListsInProcDistribution( "StoreCounterTobacco", {   store_counter_toba
 local fossoil_counter_items = {
         "Hydrocraft.HCAirfreshener", 1,
         "Hydrocraft.HCMotoroil", 1,
-        "Hydrocraft.HCLighterfluid", 1,
         "Hydrocraft.HCCashregister", 0.1,
 };
 insertItemListsInProcDistribution( "StoreShelfMechanics", {   fossoil_counter_items  } );
@@ -2082,7 +2078,7 @@ local garagestorage_items = {
 --         "Hydrocraft.HCIBC", 0.01,
         "Hydrocraft.HCPowercord", 1,
         "Hydrocraft.HCMotoroil", 1,
-        "Hydrocraft.HCLighterfluid", 1,
+--      "Hydrocraft.HCLighterfluid", 1,
         "Hydrocraft.HCFramesquare", 1,
         "Hydrocraft.HCCablecopper", 1,
         "Hydrocraft.HCWirecopper", 1,

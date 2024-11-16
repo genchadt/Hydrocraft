@@ -194,17 +194,6 @@ item HCGlowstickgreenon
 		WorldStaticModel 		= 	WorldItem-GlowstickGreenAZ,		
 	}
 
-item HCLighterempty
-	{
-		Weight			 =	0.05,
-		Type			 =	Normal,
-		DisplayName		 =	Empty Lighter,
-		Icon			 =	Lighter,
-		DisplayCategory	 =	Fuel,
-		StaticModel		 =	Zippo,
-		WorldStaticModel =	ZippoGround,
-	}
-
 item HCFlashlightoff
     {
         Weight    		=    1.5,
@@ -371,15 +360,6 @@ recipe Remove Battery
     Category:Electrical,
     OnCreate:recipe_hcbatterysmalldead,
     }
-
-recipe Refuel Lighter
-  	{
-   	HCLighterfluid,
-   	HCLighterempty,
-   	Result:Lighter,
-	Time:30.0,
-        Category:Engineer,
-  	}
 
 recipe Make Homemade Flashlight
     {

@@ -17,7 +17,6 @@ ItemName_EN = {
 	ItemName_Hydrocraft.HCLaserpointer =  "Laser Pointer",
 	ItemName_Hydrocraft.HCLaserpointeron =  "Laser Pointer (ON)",
 	ItemName_Hydrocraft.HCLighterempty =  "Empty Lighter",
-	ItemName_Hydrocraft.HCLighterfluid =  "Lighter Fluid",
 	ItemName_Hydrocraft.HCRoadflare =  "Road Flare",
 	ItemName_Hydrocraft.HCRoadflareon =  "Road Flare (ON)",
 	

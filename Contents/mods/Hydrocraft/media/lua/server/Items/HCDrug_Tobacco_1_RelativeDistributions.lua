@@ -1,7 +1,7 @@
 ---------------------------------------------------------
 --- 2021-12-27 by lorgalis
 ---------------------------------------------------------
-function HCsmokepack(m)
+--[[function HCsmokepack(m)
         retVal =
         {
                 "Hydrocraft.HCCigarbox",                 m*0.1,
@@ -41,5 +41,5 @@ function HCsmoketrash(m)
         };
         return retVal
 end
-
+]]--
 
