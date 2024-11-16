@@ -551,23 +551,7 @@ item HCWatertowerfull2
         RainFactor          = 0.01,
     }
 
-item HCWaterpump
-    {
-        Weight          = 20,
-        Type            = Normal,
-        DisplayName     = Water Pump,
-        icon            = HCWaterpump,
-		DisplayCategory	= CraftCarp,
-    }
 
-item HCWaterpump2
-    {
-        Weight          = 10000,
-        Type            = Normal,
-        DisplayName     = Water Pump,
-        icon            = HCWaterpump,
-		DisplayCategory	= CraftCarp,
-    }
 
 
 item HCClothesline
@@ -1979,43 +1963,7 @@ recipe Build Double Water Tower
         OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
     }
 
-recipe Make Water Pump
-    {
-        SkillRequired:Mechanics=3,
-        destroy HCWatertower2,
-        destroy HCWell,
-        destroy HCTrough,
-        HCWindmill,
-        HCSteelpipe=10,
-        keep PipeWrench,
-        keep HCPipebender,
-        CanBeDoneFromFloor:true,
-        Result:HCWaterpump,
-        NeedToBeLearn:true,
-        Time:1000,
-        Category:Engineer,
-        OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
-    }
 
-recipe Fill Bucket
-    {
-        HCWoodenbucket,
-        keep HCWaterpump/HCWaterpump2,
-        CanBeDoneFromFloor:true,
-        Result:HCWoodenbucketwater,
-        Time:15,
-        Category:Farming,
-    }
-
-recipe Fill IBC Tower
-    {
-        HCIBCtower,
-        keep HCWaterpump/HCWaterpump2,
-        CanBeDoneFromFloor:true,
-        Result:HCIBCtowerfull,
-        Time:15,
-        Category:Farming,
-    }
 
 recipe Build Clothes Line
     {

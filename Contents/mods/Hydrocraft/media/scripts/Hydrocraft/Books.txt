@@ -888,16 +888,7 @@ module Hydrocraft
     	}
     
 
-	item HCBookplumbing
-	{
-		Weight		=	0.5,
-		Type		=	Literature,
-		DisplayName	=	Plumbing Textbook,
-		Icon		=	HCBookplumbing,
-        	ReplaceOnUse    =   	HCBookplumbing,
-		TeachedRecipes  =   	Build Water Tower;Build Double Water Tower;Make Water Pump;Make Pipe Bender;Make Valve,
-		DisplayCategory	=   LitR,
-	}
+	
 
 
 	item HCBookelectrical

@@ -204,18 +204,6 @@ item HCLighterempty
 		StaticModel		 =	Zippo,
 		WorldStaticModel =	ZippoGround,
 	}
-	
-item HCLighterfluid
-    {
-		DisplayCategory     =   Fuel,
-		Type				= 	Drainable,
-		DisplayName         = 	Lighter Fluid,
-        Weight    			= 	0.2,
-		icon 				= 	HCLighterfluid,
-		UseWhileEquipped	= 	FALSE,
-		UseDelta			= 	0.25,
-       
-    }
 
 item HCFlashlightoff
     {

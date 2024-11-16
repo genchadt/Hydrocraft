@@ -44,10 +44,10 @@ function MakeBunchOfBerries(items, result, player)
 	local books = player:getAlreadyReadBook()
 	local traits = player:getTraits()
 	
-	local herbalist = false
+	local hebalist = false
 	
 	if(books:contains("Base.HerbalistMag") or traits:contains("Herbalist")) then
-		herbalist = true
+		hebalist = true
 	end
 
 	local berries = { }
@@ -121,7 +121,7 @@ function OnTestHasfourBerries(selectedBerry)
 			--print(" ** poison power=", x:getPoisonPower())
 			if(herbalist) then
 				if(x:getPoisonPower() == 0) then --else: don't count the poisonous berry.
-					berryCount = berryCount + 1
+					berryCount = berrycount + 1
 				end
 			else
 				berryCount = berryCount + 1

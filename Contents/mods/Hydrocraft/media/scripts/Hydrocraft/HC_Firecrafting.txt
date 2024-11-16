@@ -663,7 +663,7 @@ recipe Distill Lighter Fluid
 	[Recipe.GetItemTypes.StartFire],
 	keep HCDistillery2,
     	CanBeDoneFromFloor:true,
-	Result:HCLighterfluid,
+	Result:SM.SMLighterFluid
     	NeedToBeLearn:true,
 	Time:600,
     	Category:Firecraft,
